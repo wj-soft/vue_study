@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="view home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
@@ -16,3 +16,9 @@ export default {
   }
 }
 </script>
+
+<style>
+.view {
+  margin-left: 15%
+}
+</style>

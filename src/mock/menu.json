@@ -1,0 +1,11 @@
+{
+  "result" : [
+    {"name": "home", "key": "1", "route": "/"},
+    {"name": "about", "key": "2", "route": "/about"},
+    {
+      "name": "setmenu",
+      "key": "2",
+      "route": "/setmenu"
+    }
+  ]
+}
