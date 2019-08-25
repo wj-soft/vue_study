@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "hts": "http-server -P http://localhost:8080/"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -23,6 +24,7 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
+    "spa-http-server": "^0.9.0",
     "vue-template-compiler": "^2.6.10"
   }
 }
